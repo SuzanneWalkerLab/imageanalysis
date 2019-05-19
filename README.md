@@ -4,14 +4,10 @@ MATLAB scripts to analyze wide-field fluorescence images of Staphylococcus aureu
 Use version MATLAB _R2018b
 
 StaphSizer
-
-Main script to automatically segment cells and define cell boundaries using brightfield images. The user is prompted to sort cells according to septal phenotypes using fluorescence images. Identified cells are then fitted with an ellipse to calculate their dimensions.
-
-Input: Brightfield and wide-field fluorescence images saved in separate image stacks in .nd2 format
-
-Output: Dimensions of cells in a .mat file
-
-Additional files: Download the package “bfmatlab.zip” from Bioformats in order to open .nd2 files, and fit_ellipse.m.
+	Main script to automatically segment cells and define cell boundaries using brightfield images. The user is prompted to sort cells according to septal phenotypes using fluorescence images. Identified cells are then fitted with an ellipse to calculate their dimensions.
+	Input: Brightfield and wide-field fluorescence images saved in separate image stacks in .nd2 format
+	Output: Dimensions of cells in a .mat file
+	Additional files: Download the package “bfmatlab.zip” from Bioformats in order to open .nd2 files, and fit_ellipse.m.
 
 StaphPlot
 
